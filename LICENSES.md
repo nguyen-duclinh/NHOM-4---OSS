@@ -57,4 +57,4 @@
    * Theme con `Astra Child` do Nhóm 4 xây dựng kế thừa từ theme mẹ Astra, được phát hành theo giấy phép **GNU GPL v2 or later**, đảm bảo tính kế thừa bản quyền theo đúng điều khoản Copyleft của GNU.
 
 ---
-*Bảng kiểm kê được lập bởi Nhóm 4 — Đồ án Website Thương mại điện tử Mã nguồn mở TopGear.*
+*Bảng kiểm kê của Nhóm 4 — Website Thương mại điện tử Mã nguồn mở TopGear.*
