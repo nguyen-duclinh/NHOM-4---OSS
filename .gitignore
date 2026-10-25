@@ -1,0 +1,32 @@
+# WordPress & Cache Caches
+/cache/
+/w3tc-config/
+/wflogs/
+
+# Thư mục nhật ký giao dịch và lỗi
+uploads/wc-logs/
+uploads/cartflows-logs/
+*.log
+error_log
+debug.log
+
+# Cấu hình chứa thông tin bí mật máy chủ
+wp-config.php
+.env
+.env.*
+
+# OS & Editor generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary & backup files
+*.tmp
+*.bak
+*.swp
+*~
