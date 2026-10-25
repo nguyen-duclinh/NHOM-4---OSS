@@ -1,0 +1,124 @@
+/*
+Theme Name: Astra Child - Nhom 4 TopGear
+Theme URI: https://nhom4ecom.gt.tc/
+Description: Astra Child Theme cho đề tài Nhóm 4 - Xây dựng Cửa hàng trực tuyến Laptop TopGear (E-commerce WooCommerce). Tùy biến giao diện, bổ sung shortcode thông báo khuyến mãi an toàn và tích hợp các cơ chế bảo mật hệ thống.
+Author: Nhóm 4 - E-commerce Team
+Author URI: https://nhom4ecom.gt.tc/
+Template: astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+*/
+
+/* ==========================================================================
+   TÙY BIẾN GIAO DIỆN BỔ SUNG CHO CỬA HÀNG LAPTOP TOPGEAR (NHÓM 4)
+   ========================================================================== */
+
+/* 1. Thanh thông báo khuyến mãi Store Notice (Shortcode) */
+.nhom4-store-notice-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px 20px;
+    margin: 15px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+}
+
+.nhom4-store-notice-banner.type-info {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    color: #0d47a1;
+    border-left: 5px solid #1976d2;
+}
+
+.nhom4-store-notice-banner.type-success {
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+    color: #1b5e20;
+    border-left: 5px solid #388e3c;
+}
+
+.nhom4-store-notice-banner.type-warning {
+    background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+    color: #e65100;
+    border-left: 5px solid #f57c00;
+}
+
+.nhom4-store-notice-badge {
+    background-color: #d32f2f;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    animation: nhom4Pulse 2s infinite;
+}
+
+.nhom4-store-notice-link {
+    color: inherit;
+    text-decoration: underline;
+    font-weight: 700;
+    margin-left: 6px;
+    transition: opacity 0.2s;
+}
+
+.nhom4-store-notice-link:hover {
+    opacity: 0.8;
+}
+
+@keyframes nhom4Pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* 2. Nút Cuộn lên đầu trang (Back to top) */
+#nhom4-back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    width: 44px;
+    height: 44px;
+    background: #0073aa;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s, opacity 0.3s;
+    font-size: 20px;
+}
+
+#nhom4-back-to-top:hover {
+    background: #005177;
+    transform: translateY(-3px);
+}
+
+/* 3. Tinh chỉnh hiển thị sản phẩm và giá WooCommerce */
+.woocommerce ul.products li.product .price {
+    color: #d32f2f !important;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+
+.woocommerce span.onsale {
+    background-color: #e53935 !important;
+    border-radius: 4px;
+}
+
+/* 4. Tinh chỉnh khung đánh giá có hình ảnh */
+.cr-reviews-slider, .cr-review-images {
+    border-radius: 8px;
+    overflow: hidden;
+}
