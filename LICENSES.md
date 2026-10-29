@@ -20,7 +20,7 @@
 | STT | Tên Theme | Phiên bản | Tác giả / Tổ chức | Loại Giấy phép | Vai trò trong hệ thống |
 | :---: | :--- | :---: | :--- | :--- | :--- |
 | 1 | **Astra** *(Theme mẹ)* | 4.13.11 | Brainstorm Force | **GNU GPL v2 or later** | Theme nền tảng, chuẩn SEO, tối ưu tốc độ tải trang |
-| 2 | **Astra Child - Nhom 4 TopGear** | 1.0.0 | Nhóm 4 E-commerce | **GNU GPL v2 or later** | Theme con chứa code tùy biến an toàn và hardening |
+| 2 | **Astra Child** | 1.0.0 | Nhóm 4 E-commerce | **GNU GPL v2 or later** | Theme con chứa code tùy biến an toàn |
 | 3 | **Trendy Storefront** | 1.5.6 | Apex Themes | **GNU GPL v2 or later** | Theme thương mại điện tử dự phòng |
 | 4 | **Twenty Twenty-Five** | 1.0 | WordPress.org | **GNU GPL v2 or later** | Theme mặc định tiêu chuẩn của WordPress |
 | 5 | **Twenty Twenty-Four** | Core | WordPress.org | **GNU GPL v2 or later** | Theme mặc định dự phòng |
